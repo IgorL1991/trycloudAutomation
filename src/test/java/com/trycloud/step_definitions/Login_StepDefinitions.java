@@ -1,7 +1,5 @@
 package com.trycloud.step_definitions;
-
 import com.trycloud.pages.LoginPage;
-import com.trycloud.utilities.ConfigurationReader;
 import com.trycloud.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -13,6 +11,7 @@ public class Login_StepDefinitions {
     @Given("user on the login page")
     public void user_on_the_login_page() {
     }
+
     @When("user use username {string} and password {string}")
     public void user_use_username_and_password(String username, String password) {
         loginPage.userInput.sendKeys(username);
@@ -35,6 +34,7 @@ public class Login_StepDefinitions {
         loginPage.userInput.sendKeys(username);
         loginPage.passwordInput.sendKeys(password);
     }
+
     @Then("verify {string} message should be displayed")
     public void verify_message_should_be_displayed(String expectedMessage) {
         String actualMessage = loginPage.invalidLoginMessage.getText();

@@ -6,9 +6,11 @@ In the class we will be able to pass pre- & post- conditions to
  */
 
 
+import com.trycloud.utilities.BrowserUtils;
 import com.trycloud.utilities.ConfigurationReader;
 import com.trycloud.utilities.Driver;
 import io.cucumber.java.After;
+import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
@@ -59,9 +61,9 @@ public class Hooks {
         System.out.println("--------> applying setup using @BeforeStep");
     }
 
-    //@AfterStep
+    @AfterStep
     public void afterStep(){
-        System.out.println("--------> applying tearDown using @AfterStep");
+        BrowserUtils.sleep(1);
     }
 
 

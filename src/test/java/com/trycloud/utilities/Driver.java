@@ -12,7 +12,7 @@ public class Driver {
     Creating a private constructor, so we are closing
     access to the object of this class from outside the class
      */
-    private Driver(){}
+     private Driver(){}
     /*
     We make WebDriver private, because we want to close access from outside the class.
     We make it static because we will use it in a static method.

@@ -1,13 +1,14 @@
 Feature: TryCloud app login feature
-  User Story:
-  As a user, I should be able to log in.
+
+  Background: For this scenario, user is expected to be on login page
+    Given user on the login page
 
   @ValidLogIn
   Scenario Outline: Verify login with valid credentials
-    Given user on the login page
-    When user use username "<username>" and password "<password>"
-    And user click the login button
+    And user use username "<username>" and password "<password>"
+    When user click the login button
     Then verify the user should be at the dashboard page
+
     Examples:
       | username | password    |
       | User2    | Userpass123 |
@@ -17,7 +18,6 @@ Feature: TryCloud app login feature
 
   @InvalidLogin
   Scenario Outline: Verify user login fail with invalid credentials
-    Given user on the login page
     When user use invalid "<username>" and password "<password>"
     And user click the login button
     Then verify "<message>" message should be displayed

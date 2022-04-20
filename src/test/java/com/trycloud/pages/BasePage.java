@@ -25,4 +25,10 @@ public abstract class  BasePage {
 
     @FindBy(xpath = "//ul[@id='appmenu']//li[2]")
     public WebElement filesModule;
+
+    @FindBy(xpath = "//ul[@id='appmenu']//li[@data-id='spreed']")
+    public WebElement TalkModule;
+
+    @FindBy(xpath = "//div[@class='header-menu unified-search']")
+    public WebElement searchIcon;
 }
