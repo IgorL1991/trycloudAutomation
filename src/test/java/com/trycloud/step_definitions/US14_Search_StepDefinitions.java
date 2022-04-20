@@ -6,12 +6,11 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
-import org.openqa.selenium.Keys;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Search_StepDefinitions {
+public class US14_Search_StepDefinitions {
     HomePage homePage = new HomePage();
     SearchPage searchPage = new SearchPage();
     @When("the user click the search icon on the right top")

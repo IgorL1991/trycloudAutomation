@@ -14,7 +14,7 @@ import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ManageFolders_StepDefinitions {
+public class US7_ManageFolders_StepDefinitions {
     FilesPage filesPage = new FilesPage();
 
     Faker faker = new Faker();

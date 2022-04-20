@@ -7,7 +7,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 
-public class FileModule_StepDefinitions {
+public class US4_FileModule_StepDefinitions {
     HomePage homePage = new HomePage();
     FilesPage filesPage = new FilesPage();
 

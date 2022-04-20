@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class EditFavoriteFiles_StepDefinitions {
+public class US6_EditFavoriteFiles_StepDefinitions {
     FilesPage filesPage = new FilesPage();
     String expectedFileName = "";
     int i = 0;

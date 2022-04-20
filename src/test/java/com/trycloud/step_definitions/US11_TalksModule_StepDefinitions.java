@@ -2,13 +2,12 @@ package com.trycloud.step_definitions;
 
 import com.trycloud.pages.HomePage;
 import com.trycloud.pages.TalkPage;
-import com.trycloud.utilities.BrowserUtils;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 
-public class TalksModule_StepDefinitions {
+public class US11_TalksModule_StepDefinitions {
     HomePage homePage = new HomePage();
     TalkPage talkPage = new TalkPage();
     String userName = "Group2";

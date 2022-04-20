@@ -2,14 +2,13 @@ package com.trycloud.step_definitions;
 
 import com.github.javafaker.Faker;
 import com.trycloud.pages.FilesPage;
-import com.trycloud.utilities.BrowserUtils;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CommentFileFolder_StepDefinitions {
+public class US9_CommentFileFolder_StepDefinitions {
     FilesPage filesPage = new FilesPage();
     Faker faker = new Faker();
     String expectedMessage = "Test test, cool cool cool" + faker.numerify("-###");

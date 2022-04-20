@@ -12,7 +12,7 @@ import org.openqa.selenium.interactions.Actions;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AllMainModules_StepDefinitions {
+public class US3_AllMainModules_StepDefinitions {
     LoginPage loginPage = new LoginPage();
     HomePage homePage = new HomePage();
 

@@ -9,7 +9,7 @@ import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
-public class UpdateSettings_StepDefinitions {
+public class US10_UpdateSettings_StepDefinitions {
     FilesPage filesPage = new FilesPage();
     double storageBefore = 0;
     double storageAfter = 0;

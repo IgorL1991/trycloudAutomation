@@ -9,7 +9,7 @@ import org.junit.Assert;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ViewContactList_StepDefinitions {
+public class US13_ViewContactList_StepDefinitions {
     HomePage homePage = new HomePage();
     ContactsPage contactsPage = new ContactsPage();
     @When("the user clicks the contacts module")

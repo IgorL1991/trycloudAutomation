@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class DeleteFileFolder_StepDefinitions {
+public class US8_DeleteFileFolder_StepDefinitions {
     FilesPage filesPage = new FilesPage();
     String deletedFileName = "";
     Random random = new Random();

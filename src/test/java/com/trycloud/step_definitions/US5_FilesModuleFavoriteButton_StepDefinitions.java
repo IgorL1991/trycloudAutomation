@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FilesModuleFavoriteButton_StepDefinitions {
+public class US5_FilesModuleFavoriteButton_StepDefinitions {
     FilesPage filesPage = new FilesPage();
     String expectedFileName = "";
     int i = 0;
